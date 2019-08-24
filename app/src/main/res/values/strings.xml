@@ -43,4 +43,7 @@
     <string name="forgot_password">Forgot password?</string>
     <string name="login">Login</string>
 
+    <string name="auth_failed">Authentification failed!</string>
+    <string name="minimum_password">Password must be >= 6 chars</string>
+
 </resources>

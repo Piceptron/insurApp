@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "464883284950",
+    "firebase_url": "https://hack-the-6ix-8932d.firebaseio.com",
+    "project_id": "hack-the-6ix-8932d",
+    "storage_bucket": "hack-the-6ix-8932d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464883284950:android:cc295746bf128809",
+        "android_client_info": {
+          "package_name": "com.example.android.microinsurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464883284950-q0n5lu23eeeup149qubvksi0uhut597s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMXDShi87wk8IqdFeHPI_chFMAwu-ifQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464883284950-q0n5lu23eeeup149qubvksi0uhut597s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
