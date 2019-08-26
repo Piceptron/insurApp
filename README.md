@@ -5,6 +5,11 @@ This is a micro insurance app that allows user to keep track of their assets, an
 
 ## DEMO
 
+<img src="https://i.imgur.com/gSbp0zY.png" width="30%" height="30%">
+<img src="https://i.imgur.com/HM9pp3x.gif" width="30%" height="30%">
+<img src="/demo/sample.gif?raw=true">
+<img src="/demo/sample2.gif?raw=true">
+
 ![alt text](https://i.imgur.com/gSbp0zY.png)
 <img src="/demo/sample.gif?raw=true">
 <img src="/demo/sample2.gif?raw=true">
