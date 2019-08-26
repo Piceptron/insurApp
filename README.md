@@ -3,6 +3,12 @@
 ## What is it?
 This is a micro insurance app that allows user to keep track of their assets, and recommends micro insurance products that best fit for the assets they own. This app is created during Hack the Six 2019 Toronto.
 
+## DEMO
+
+![alt text](https://i.imgur.com/gSbp0zY.png)
+<img src="/demo/sample.gif?raw=true">
+<img src="/demo/sample2.gif?raw=true">
+
 ## How to use it? 
 To begin, user upload images of their assets via camera button through navigation or home page, it will take a photo of the asset and sent to AWS for OCR and object recogniztion such that user doesn't need to hand enter most of the attributes themself. 
 
