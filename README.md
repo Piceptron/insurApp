@@ -24,5 +24,7 @@ The app is architect with the mindset of single activity and multi fragments usi
 ## Roles
 I worked on most of the app, camera flow, submit flow, home flow, error case flows, app navigation architecture, network layers and app designs. 
 
-@jcserv worked on profile flow, home page UI and login integration with firebase (login branch).
+[@jcserv](https://github.com/jcserv) worked on profile flow, home page UI and login integration with firebase (login branch).
+
+
 
