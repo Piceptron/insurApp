@@ -5,10 +5,8 @@ This is a micro insurance app that allows user to keep track of their assets, an
 
 ## DEMO
 
-<img src="https://i.imgur.com/gSbp0zY.png" width="30%" height="30%">
-<img src="https://i.imgur.com/HM9pp3x.gif" width="30%" height="30%">
-<img src="/demo/sample.gif?raw=true">
-<img src="/demo/sample2.gif?raw=true">
+<img src="/demo/2.gif?raw=true" width="30%" height="30%">
+<img src="/demo/1.gif?raw=true" width="30%" height="30%">
 
 ## How to use it? 
 To begin, user upload images of their assets via camera button through navigation or home page, it will take a photo of the asset and sent to AWS for OCR and object recogniztion such that user doesn't need to hand enter most of the attributes themself. 
