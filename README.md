@@ -23,6 +23,21 @@ Read more at: https://github.com/Piceptron/MicroinsuranceRecommender
 ## App architecture
 The app is architect with the mindset of single activity and multi fragments using Jetpack navigation. I was going to use MVP but given the 1.5 days development time constraint of the Hackathon it's not feasible. 
 
+## Endpoints
+/sendImage: takes input image in base64 and sends it to AWS Rekognition to understand what the image is and a category for the image, then queries the MySQL database for a valuation of that type of product. If the return product is similar looking to a receipt, will call AWS Textract to parse out information from the receipt, and collects the asset information including valuation from the parsed text.
+
+/addAsset: adds an asset to the database
+
+/getAllAssets: returns json containing list of all assets recorded in the database
+
+/getTop4Assets: returns json containing list of 4 most recent assets recorded in the database
+
+/getRecommendations: returns json containing list of all recommendations for the user using his current assets recorded in the database. Recommendations taken from Keras Neural Network currently trained with dummy data.
+
+/get4Recommendations: returns json containing list of top 4 most confident recommendations for the user using his current assets recorded in the database. Recommendations taken from Keras Neural Network currently trained with dummy data.
+
+
+
 ## Roles
 I worked on most of the app, camera flow, submit flow, home flow, error case flows, app navigation architecture, network layers and app designs. 
 
