@@ -9,7 +9,7 @@ This is a micro insurance app that allows user to keep track of their assets, an
 <img src="/demo/1.gif?raw=true" width="30%" height="30%">
 
 ## How to use it? 
-To begin, user upload images of their assets via camera button through navigation or home page, it will take a photo of the asset and sent to AWS for Textract(text extraction) and Rekognition object recogniztion such that user doesn't need to hand enter most of the attributes themself. 
+To begin, user upload images of their assets via camera button through navigation or home page, it will take a photo of the asset and sent to AWS for Textract(text extraction) and Rekognition object recogniztion such that user doesn't need to manually enter most of the attributes themself. 
 
 Then an interface is presented to the user to confirm and add additional attributes if needed, once user click on the button submmit, the asset entry will be recorded in our MySQL database in AWS and our prediction model will re-evauate the best insurance products that fit for that user based on all the assets that the user have recorded.
 
