@@ -43,7 +43,7 @@ I worked on most of the app, camera flow, submit flow, home flow, error case flo
 
 [Jarrod Servilla](https://github.com/jcserv) worked on profile flow, home page UI and login integration with firebase (login branch).
 
-[Hao Cong Su](https://www.linkedin.com/in/haocongsu/) and [Mingyi Dai](https://github.com/Piceptron) worked on the backend, Database, AWS APIs and recommendation models with Keras Neural Network.
+[Hao Cong Su](https://www.linkedin.com/in/haocongsu/) and [Mingyi Dai](https://github.com/Piceptron) worked on the backend, MySQL Database, AWS APIs and recommendation models with Keras Neural Network.
 
 
 
