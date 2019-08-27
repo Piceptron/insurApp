@@ -16,14 +16,14 @@ Then an interface is presented to the user to confirm and add additional attribu
 At last, user will be redirect to home page where they can see their recorded assets and recommended insurances based on their assets using our recommendations models in Keras Neural Network.
 
 ## Technology Stack
-**Frontend Android:** This app utilizes Jetpack navigation, retrofit2 and okhttp3.
+**Frontend Android:** This app utilizes Jetpack navigation component, retrofit2 and okhttp3.
 
 **Backend:** Flask,  MySQL Database, AWS Textract, AWS Rekognition, Keras Neural Network.
 
 **Read more about backend at:** https://github.com/Piceptron/MicroinsuranceRecommender
 
 ## App architecture
-The app is architect with the mindset of single activity and multi fragments using Jetpack navigation. I was going to use MVP but given the 1.5 days development time constraint of the Hackathon it's not feasible. 
+The app is architect with the mindset of single activity and multi fragments using Jetpack navigation. I was going to use MVP but given the 1.5 days development time constraint of the Hackathon it's not feasible. The Jetpack navigation component makes managing backstack and fragment transactions very easy, it speeded up our development considerably. 
 
 ## Endpoints
 **POST /sendImage:** takes input image in base64 and sends it to AWS Rekognition to understand what the image is and a category for the image, then queries the MySQL database for a valuation of that type of product. If the return product is similar looking to a receipt, will call AWS Textract to parse out information from the receipt, and collects the asset information including valuation from the parsed text.
