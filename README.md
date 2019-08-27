@@ -18,7 +18,7 @@ At last, user will be redirect to home page where they can see their recorded as
 ## Technology Stack
 **Frontend Android:** This app utilizes Jetpack navigation component, retrofit2 and okhttp3.
 
-**Backend:** Flask,  MySQL Database, AWS Textract, AWS Rekognition, Keras Neural Network.
+**Backend:** AWS Elastic Beanstalk, Flask,  MySQL Database, AWS Textract, AWS Rekognition, Keras Neural Network.
 
 **Read more about backend at:** https://github.com/Piceptron/MicroinsuranceRecommender
 
