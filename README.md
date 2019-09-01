@@ -1,4 +1,4 @@
-# Automated Micro Insurance app
+# insurApp
 
 ## What is it?
 This is a micro insurance app that allows user to keep track of their assets, and recommends micro insurance products that best fit for the assets they own. This app is created during Hack the Six 2019 Toronto.
