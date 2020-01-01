@@ -15,7 +15,7 @@ Then an interface is presented to the user to confirm and add additional attribu
 
 At last, user will be redirect to home page where they can see their recorded assets and recommended insurances based on their assets using our recommendations models in Keras Neural Network.
 
-## Technology Stack
+## Tech Stack
 **Frontend Android:** This app utilizes Jetpack navigation component, retrofit2 and okhttp3.
 
 **Backend:** AWS Elastic Beanstalk, Flask,  MySQL Database, AWS Textract, AWS Rekognition, Keras Neural Network.
