@@ -46,4 +46,3 @@ I worked on most of the app, camera flow, submit flow, home flow, error case flo
 [Hao Cong Su](https://www.linkedin.com/in/haocongsu/) and [Mingyi Dai](https://github.com/Piceptron) worked on the backend, MySQL Database, AWS APIs and recommendation models with Keras Neural Network.
 
 
-
